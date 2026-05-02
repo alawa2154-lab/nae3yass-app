@@ -43,26 +43,41 @@ export default function SubjectPage() {
           <span className="block font-black mb-4 text-2xl" style={{ color: '#8494FF' }}>
             المرحلة الثانية: الاستجابة المناعية الثانوية
           </span>
-          <p className="text-xl leading-relaxed text-black font-normal" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
+          <p className="text-xl leading-relaxed text-black font-normal mb-8" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
             إذا ما أصيب ذلك الفرد مرة ثانية بنفس الكائن الممرض، فإن الاستجابة المناعية تكون سريعة جداً إلى الدرجة التي غالباً ما يتم فيها تدمير الكائن الممرض قبل أن تظهر أعراض المرض. وتعرف الخلايا المسؤولة عن ذلك بخلايا الذاكرة التي تتكون أثناء الاستجابة المناعية الأولية. 
             <br /><br />
             فبينما الخلايا البائية والتائية لا تعيش إلا أياماً محدودة، فإن خلايا الذاكرة تعيش عشرات السنين. وعند المجابهة الثانية، تستجيب هذه الخلايا فوراً وتنقسم سريعاً لإنتاج الخلايا البلازمية والأجسام المضادة في وقت قصير جداً، لأن أعدادها أكبر وتستغرق وقتاً أقل في التعرف على الكائن الممرض.
           </p>
         </div>
 
-        {/* أزرار التنقل (سابق واختبار) */}
+        {/* كارت اليوتيوب بالألوان الجديدة */}
+        <div className="mb-10 p-6 rounded-2xl border border-pink-200 flex flex-col items-center shadow-sm" style={{ backgroundColor: '#FFDBFD' }}>
+          {/* تم تعديل اللون ليكون #8494FF وإضافة الخط العريض font-bold */}
+          <p className="text-lg font-bold mb-3" style={{ color: '#8494FF' }}>
+            شاهد شرح توضيحي إضافي للمناعة المكتسبة:
+          </p>
+          <a 
+            href="https://www.youtube.com/watch?v=rlbH6QwlL2I" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 text-white px-6 py-2 rounded-xl bg-red-500 hover:bg-red-600 transition-colors shadow-md"
+          >
+            <span className="text-2xl">▶</span>
+            مشاهدة على YouTube
+          </a>
+        </div>
+
+        {/* أزرار التنقل */}
         <div className="mt-12 flex justify-between items-center flex-row-reverse">
-          {/* تم تعديل الرابط هنا ليرتبط بـ /exam */}
           <Link 
             href="/exam" 
             className="inline-flex items-center px-8 py-3 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
             style={{ backgroundColor: '#6367FF' }}
           >
             ابدأ الاختبار
-            <span className="mr-2">📝</span>
+            <span className="mr-2"></span>
           </Link>
 
-          {/* زر الدرس السابق */}
           <Link 
             href="/content/subject5" 
             className="inline-flex items-center px-8 py-3 rounded-full font-bold text-lg transition-all hover:scale-105 border-2"
