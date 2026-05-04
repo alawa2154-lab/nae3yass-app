@@ -7,6 +7,7 @@ export default function SubjectPage() {
         المناعة في الكائنات الحية
       </nav>
 
+      {/* العنوان الرئيسي */}
       <h1 className="text-4xl font-bold mb-8" style={{ color: '#6367FF' }}>
         المناعة في الإنسان
       </h1>
@@ -20,6 +21,16 @@ export default function SubjectPage() {
             alt="المناعة في الإنسان"
             className="w-full h-auto object-cover block" 
           />
+        </div>
+
+        {/* كارت الهدف المضاف حديثاً */}
+        <div className="mb-10 overflow-hidden rounded-xl border border-gray-200 shadow-sm">
+          <div className="py-2 px-6 font-bold text-lg" style={{ backgroundColor: '#FFDBFD', color: '#6367FF' }}>
+            الهدف
+          </div>
+          <div className="p-5 bg-slate-50 text-xl text-black">
+            أن يُعدد الطالب أنواع المناعة في الإنسان.
+          </div>
         </div>
 
         {/* المقدمة */}
@@ -95,7 +106,7 @@ export default function SubjectPage() {
             خامساً: العقد الليمفاوية
           </span>
           <p className="text-xl leading-relaxed text-black font-normal mb-6" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
-            تقوم بتنقية اللمف من الميكروبات وتتواجد على طول شبكة الأوعية الليمفاوية مثل تحت الإبطين وأعلى الفخذ. تنقسم من الداخل إلى جيوب ممتلئة بالخلايا الليمفاوية والبلعمية لتخليص اللمف من الجراثيم.
+            قوم بتنقية اللمف من الميكروبات وتتواجد على طول شبكة الأوعية الليمفاوية مثل تحت الإبطين وأعلى الفخذ. تنقسم من الداخل إلى جيوب ممتلئة بالخلايا الليمفاوية والبلعمية لتخليص اللمف من الجراثيم.
           </p>
           <div className="mb-6 rounded-xl overflow-hidden shadow-sm border">
             <img src="/12.png" alt="العقد الليمفاوية" className="w-full h-auto block" />
@@ -104,7 +115,6 @@ export default function SubjectPage() {
 
         {/* أزرار التنقل (سابق وتالي) */}
         <div className="mt-12 flex justify-between items-center flex-row-reverse">
-          {/* زر الدرس التالي */}
           <Link 
             href="/content/subject4" 
             className="inline-flex items-center px-8 py-3 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
@@ -114,7 +124,6 @@ export default function SubjectPage() {
             <span className="mr-2">←</span>
           </Link>
 
-          {/* زر الدرس السابق */}
           <Link 
             href="/content/subject2" 
             className="inline-flex items-center px-8 py-3 rounded-full font-bold text-lg transition-all hover:scale-105 border-2"

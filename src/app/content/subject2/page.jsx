@@ -23,6 +23,17 @@ export default function SubjectPage() {
           />
         </div>
 
+        {/* كارت الهدف */}
+        <div className="mb-10 overflow-hidden rounded-xl border border-gray-200 shadow-sm">
+          {/* تم تعديل لون كلمة "الهدف" هنا إلى #6367FF */}
+          <div className="py-2 px-6 font-bold text-lg" style={{ backgroundColor: '#FFDBFD', color: '#6367FF' }}>
+            الهدف
+          </div>
+          <div className="p-5 bg-slate-50 text-xl text-black">
+            ان يُعدد الطالب أنواع المناعة في النبات.
+          </div>
+        </div>
+
         {/* المقدمة */}
         <p 
           className="text-xl leading-relaxed text-black font-normal mb-8"
@@ -91,7 +102,6 @@ export default function SubjectPage() {
 
         {/* أزرار التنقل (سابق وتالي) */}
         <div className="mt-12 flex justify-between items-center flex-row-reverse">
-          {/* زر الدرس التالي */}
           <Link 
             href="/content/subject3" 
             className="inline-flex items-center px-8 py-3 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
@@ -101,7 +111,6 @@ export default function SubjectPage() {
             <span className="mr-2">←</span>
           </Link>
 
-          {/* زر الدرس السابق */}
           <Link 
             href="/content/subject1" 
             className="inline-flex items-center px-8 py-3 rounded-full font-bold text-lg transition-all hover:scale-105 border-2"

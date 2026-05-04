@@ -23,6 +23,16 @@ export default function SubjectPage() {
           />
         </div>
 
+        {/* كارت الهدف المضاف حديثاً */}
+        <div className="mb-10 overflow-hidden rounded-xl border border-gray-200 shadow-sm">
+          <div className="py-2 px-6 font-bold text-lg" style={{ backgroundColor: '#FFDBFD', color: '#6367FF' }}>
+            الهدف
+          </div>
+          <div className="p-5 bg-slate-50 text-xl text-black font-bold">
+            أن يذكر الطالب تركيب الأجسام المضادة.
+          </div>
+        </div>
+
         {/* الفقرة الأولى */}
         <p className="text-xl leading-relaxed text-black font-normal mb-6" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
           الأجسام المضادة عبارة عن جلوبيولينات مناعية تظهر على شكل حرف Y وتوجد بالدم والليمف في الحيوانات الفقارية والإنسان، ويتم إنتاجها بواسطة الخلايا البائية البلازمية. تقع المواقع على حدوث الارتباط المحدد بين الأنتيجين والجسم المضاد الملائم له بطريقة تشبه القفل والمفتاح، ويؤدى هذا الارتباط إلى تكوين مركب معقد من الأنتيجين والجسم المضاد. ويعرف موقع ارتباط الأنتيجين على الجسم المضاد بالجزء المتغير لأن شكله يتغير من جسم مضاد لآخر، أما الجزء المتبقى من الجسم المضاد فيعرف بالجزء الثابت حيث أنه ثابت الشكل والتركيب في جميع أنواع الأجسام المضادة.
@@ -86,7 +96,6 @@ export default function SubjectPage() {
 
         {/* أزرار التنقل (سابق وتالي) */}
         <div className="mt-12 flex justify-between items-center flex-row-reverse">
-          {/* زر الدرس التالي */}
           <Link 
             href="/content/subject5" 
             className="inline-flex items-center px-8 py-3 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
@@ -96,7 +105,6 @@ export default function SubjectPage() {
             <span className="mr-2">←</span>
           </Link>
 
-          {/* زر الدرس السابق */}
           <Link 
             href="/content/subject3" 
             className="inline-flex items-center px-8 py-3 rounded-full font-bold text-lg transition-all hover:scale-105 border-2"

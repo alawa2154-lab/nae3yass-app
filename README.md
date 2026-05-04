@@ -306,3 +306,151 @@ naw3yas-app
       └─ page.js
 
 ```
+```
+naw3yas-app
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ jsconfig.json
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ 10.png
+│  ├─ 11.png
+│  ├─ 12.png
+│  ├─ 13.jpg
+│  ├─ 14.png
+│  ├─ 15.jfif
+│  ├─ 16.png
+│  ├─ 17.jpg
+│  ├─ 18.png
+│  ├─ 19.png
+│  ├─ 2.mp4
+│  ├─ 20.png
+│  ├─ 21.jfif
+│  ├─ 22.png
+│  ├─ 23.png
+│  ├─ 24.png
+│  ├─ 25.png
+│  ├─ 26.png
+│  ├─ 3.jfif
+│  ├─ 4.png
+│  ├─ 5.png
+│  ├─ 6.png
+│  ├─ 7.jpg
+│  ├─ 8.png
+│  ├─ 9.png
+│  ├─ alaa.jpeg
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+├─ README.md
+└─ src
+   └─ app
+      ├─ about
+      │  └─ page.jsx
+      ├─ content
+      │  ├─ page.jsx
+      │  ├─ subject1
+      │  │  └─ page.jsx
+      │  ├─ subject2
+      │  │  └─ page.jsx
+      │  ├─ subject3
+      │  │  └─ page.jsx
+      │  ├─ subject4
+      │  │  └─ page.jsx
+      │  ├─ subject5
+      │  │  └─ page.jsx
+      │  └─ subject6
+      │     └─ page.jsx
+      ├─ developer
+      │  └─ page.jsx
+      ├─ exam
+      │  └─ page.jsx
+      ├─ favicon.ico
+      ├─ globals.css
+      ├─ home
+      │  └─ page.jsx
+      ├─ instructions
+      │  └─ page.jsx
+      ├─ layout.js
+      └─ page.js
+
+```
+```
+naw3yas-app
+├─ AGENTS.md
+├─ CLAUDE.md
+├─ jsconfig.json
+├─ next.config.mjs
+├─ package-lock.json
+├─ package.json
+├─ postcss.config.mjs
+├─ public
+│  ├─ 10.png
+│  ├─ 11.png
+│  ├─ 12.png
+│  ├─ 13.jpg
+│  ├─ 14.png
+│  ├─ 15.jfif
+│  ├─ 16.png
+│  ├─ 17.jpg
+│  ├─ 18.png
+│  ├─ 19.png
+│  ├─ 2.mp4
+│  ├─ 20.png
+│  ├─ 21.jfif
+│  ├─ 22.png
+│  ├─ 23.png
+│  ├─ 24.png
+│  ├─ 25.png
+│  ├─ 26.png
+│  ├─ 3.jfif
+│  ├─ 4.png
+│  ├─ 5.png
+│  ├─ 6.png
+│  ├─ 7.jpg
+│  ├─ 8.png
+│  ├─ 9.png
+│  ├─ alaa.jpeg
+│  ├─ file.svg
+│  ├─ globe.svg
+│  ├─ next.svg
+│  ├─ vercel.svg
+│  └─ window.svg
+├─ README.md
+└─ src
+   └─ app
+      ├─ about
+      │  └─ page.jsx
+      ├─ content
+      │  ├─ page.jsx
+      │  ├─ subject1
+      │  │  └─ page.jsx
+      │  ├─ subject2
+      │  │  └─ page.jsx
+      │  ├─ subject3
+      │  │  └─ page.jsx
+      │  ├─ subject4
+      │  │  └─ page.jsx
+      │  ├─ subject5
+      │  │  └─ page.jsx
+      │  └─ subject6
+      │     └─ page.jsx
+      ├─ developer
+      │  └─ page.jsx
+      ├─ exam
+      │  └─ page.jsx
+      ├─ favicon.ico
+      ├─ globals.css
+      ├─ home
+      │  └─ page.jsx
+      ├─ instructions
+      │  └─ page.jsx
+      ├─ layout.js
+      └─ page.js
+
+```

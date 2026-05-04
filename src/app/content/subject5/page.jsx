@@ -23,6 +23,16 @@ export default function SubjectPage() {
           />
         </div>
 
+        {/* كارت الهدف المضاف حديثاً */}
+        <div className="mb-10 overflow-hidden rounded-xl border border-gray-200 shadow-sm">
+          <div className="py-2 px-6 font-bold text-lg" style={{ backgroundColor: '#FFDBFD', color: '#6367FF' }}>
+            الهدف
+          </div>
+          <div className="p-5 bg-slate-50 text-xl text-black font-bold">
+            أن يشرح الطالب آلية عمل الجهاز المناعي في الإنسان.
+          </div>
+        </div>
+
         <p className="text-xl leading-relaxed text-black font-normal mb-8" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
           يعمل الجهاز المناعي وفق نظامين مناعيين: المناعة الطبيعية والمناعة المكتسبة. هذين النظامين على الرغم من أنهما مختلفان إلا أنهما يعملان بتعاون وتنسيق مع بعضهما، وهذا يسمح للجسم بالتعامل بنجاح مع الكائنات الممرضة.
         </p>
@@ -113,7 +123,6 @@ export default function SubjectPage() {
 
         {/* أزرار التنقل (سابق وتالي) */}
         <div className="mt-12 flex justify-between items-center flex-row-reverse">
-          {/* تم تعديل الرابط هنا ليوجه إلى subject6 */}
           <Link 
             href="/content/subject6" 
             className="inline-flex items-center px-8 py-3 rounded-full text-white font-bold text-lg transition-all hover:scale-105 shadow-lg hover:shadow-xl"
@@ -123,7 +132,6 @@ export default function SubjectPage() {
             <span className="mr-2">←</span>
           </Link>
 
-          {/* زر الدرس السابق */}
           <Link 
             href="/content/subject4" 
             className="inline-flex items-center px-8 py-3 rounded-full font-bold text-lg transition-all hover:scale-105 border-2"

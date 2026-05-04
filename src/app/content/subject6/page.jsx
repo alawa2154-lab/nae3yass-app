@@ -23,6 +23,16 @@ export default function SubjectPage() {
           />
         </div>
 
+        {/* كارت الهدف المضاف حديثاً */}
+        <div className="mb-10 overflow-hidden rounded-xl border border-gray-200 shadow-sm">
+          <div className="py-2 px-6 font-bold text-lg" style={{ backgroundColor: '#FFDBFD', color: '#6367FF' }}>
+            الهدف
+          </div>
+          <div className="p-5 bg-slate-50 text-xl text-black font-bold">
+            أن يُعدد الطالب مراحل المناعة المكتسبة بالترتيب.
+          </div>
+        </div>
+
         {/* مقدمة */}
         <p className="text-xl leading-relaxed text-black font-normal mb-8" style={{ textAlign: 'justify', textJustify: 'inter-word' }}>
           عندما يصاب فرد ما بمرض معين مثل الحصبة، فإنه لا يصاب به مرة ثانية طوال حياته، هل تعرف لماذا؟ لأنه قد اكتسب مناعة لهذا المرض وهي تحدث على مرحلتين:
@@ -52,7 +62,6 @@ export default function SubjectPage() {
 
         {/* كارت اليوتيوب بالألوان الجديدة */}
         <div className="mb-10 p-6 rounded-2xl border border-pink-200 flex flex-col items-center shadow-sm" style={{ backgroundColor: '#FFDBFD' }}>
-          {/* تم تعديل اللون ليكون #8494FF وإضافة الخط العريض font-bold */}
           <p className="text-lg font-bold mb-3" style={{ color: '#8494FF' }}>
             شاهد شرح توضيحي إضافي للمناعة المكتسبة:
           </p>
